@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+body{
+   margin: 0;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 h1{
     background-color: #081b31;
     color: #fff;
@@ -13,9 +19,10 @@ h1{
 
 .choice{
     height: 165px;
-    width: 165px;
+    max-width: 165px;
     border-radius: 50%;
     display: flex;
+    flex: 1 1 100px;
     align-items: center;
     justify-content: center;
 }
@@ -37,6 +44,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 3rem;
     margin-top: 5rem;
 }
@@ -45,6 +53,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 2rem;
     margin-top: 3rem;
     gap: 5rem;
@@ -62,7 +71,7 @@ img{
     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
-    display: inline;
+    display: inline-block;
     padding: 1rem;
     border-radius: 1rem;
 
